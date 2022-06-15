@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.second{
+  width: 100vw;
+  height: 50vh;
+  border: 1px solid black;
+  display: flex;
+}
+
+.second>div{
+  width: 50vw;
+  height: 50vh;
+}
+
+.twos{
+  width: 50vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+}
+.twos>div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ones{
+  width: 50vw;
+  height: 25vh;
+  display:flex;
+  justify-content: center;
+}
+
+.intro{
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro>img{
+  width: 48vw;
+  height: 46vh;
+}
+
+.baby{
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  margin: 50px;
+  background-image: url(./image/아가.png);
+  
+}
+
+.high{
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./image/졸업.png);
+}
+
+.han{
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  margin: 30px;
+  background-image: url(./image/한예슬.png);
+}
+
+@media (max-width:1300px) {
+  .second{
+    height: 40vh;
+  }
+  .second>div{
+    height: 40vh;
+  }
+  .twos{
+    height: 20vh;
+  }
+  .ones{
+    height: 20vh;
+  }
+  .intro{
+    height: 40vh;
+  }
+  .intro>img{
+    height: 36vh;
+  }
+}
+
+@media (max-width:850px) {
+  .second{
+    height: 30vh;
+  }
+  .second>div{
+    height: 30vh;
+  }
+  .twos{
+    height: 15vh;
+  }
+  .ones{
+    height: 15vh;
+  }
+  .intro{
+    width: 80vw;
+    height: 30vh;
+  }
+  .intro>img{
+    height: 26vh;
+  }
+  .circle{
+    display: none;
+  }
+  .second{
+    justify-content: center;
+    align-items: center;
+  }
+  .intro>img{
+    width: 80vw;
+  }
+}
+
+@media (max-width:550px) {
+ 
+}
