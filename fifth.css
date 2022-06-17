@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'BMEuljiro10yearslater';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/BMEuljiro10yearslater.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fifth{
+  width: 100vw;
+  height: 100vh;
+}
+.bossintro{
+  width: 100vw;
+  height: 34vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fch{
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9E2428;
+  color: white;
+  font-family: 'BMEuljiro10yearslater';
+  font-size: 2rem;
+  border-radius: 20px;
+}
+
+.bossbox{
+  width:60vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9E2428;
+}
+
+.bossbox>img{
+  width: 18vw;
+  height: 20vh;
+}
+
+.fchdata{
+  width: 100vw;
+  height: 33vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fchdata>div>img{
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  border: 1px solid red;
+}
+
+.tablesc{
+  width: 100vw;
+  height: 33vh;
+  border: 1px solid black;
+}
